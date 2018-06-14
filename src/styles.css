@@ -1,0 +1,31 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app {
+	font-family: sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wordlist,
+.sentence-form {
+	margin: 10px 0;
+}
+
+.filtered-sentence {
+	height: 20px;
+}
+
+.divider {
+	width: 80%;
+}
